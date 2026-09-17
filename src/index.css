@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+button,
+input {
+  font-family: inherit;
+}
+
+
+button {
+  transition: 0.3s;
+}
+
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
